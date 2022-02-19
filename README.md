@@ -13,7 +13,13 @@
 
 This repository provides an extensive and comprehensive study/review to the article [1]. Albeit, this work only covers the section I and section II, they are extensive nevertheless. I‘ve invested multiple hours and a meticulous efforts to simplify the loaded mathematical notions and symbols to make it more palatable to the reader. Since you are here, I presume you are looking to break in to the article. I hope my work will help you on your way.
 
-The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The encoding parameters like number of gates determines the expressivity and can be exchanged in terms of the Fourier series. A prior knowledge of the Fourier analysis [2] is mandatory to learn from the article. Plus I would suggest the eigen-decomposition is a cool insights [3]. 
+The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The encoding parameters like number of gates and scaling of the frequency in trainable model determines the expressivity. The underlying notion is the quantum model can be exchanged in terms of the Fourier series.
+
+$$f_{\theta}(x) = \sum_{n\in\Omega} \, c_n(\theta)e^{in x}$$
+$$f_{\theta}(x) \, = \,\, <0|U^\dagger (x,\theta) M U(x,\theta)|0>$$
+$$  \sum_{n\in\Omega} \, c_n(\theta)e^{in x} =   \,\, <0|U^\dagger (x,\theta) M U(x,\theta)|0>$$
+
+A prior knowledge of the Fourier analysis [2] is mandatory to learn from the article. Plus I would suggest the eigen-decomposition is a cool insights [3]. 
 
 In the abstract section of the article the authors succinctly provide the objectives of their hard work.
 
