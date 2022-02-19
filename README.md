@@ -1,6 +1,6 @@
 ## Expressivity of Quantum model in terms of Fourier series.
 
-This repository provides an extensive and comprehensive study/review to the article [1]. Albeit, this work only covers the section I and section II, they are extensive nevertheless. I‘ve invested numerous hours and a meticulous efforts to simplify the loaded mathematical notions and symbols to make it more palatable to the reader. Since you are here, I presume you are looking to break in to the article. I hope my work will help you on your way.
+This repository provides an extensive and comprehensive study/review to the article [1]. Albeit, this work only covers the section I and section II, they are extensive nevertheless. I‘ve invested multiple hours and a meticulous efforts to simplify the loaded mathematical notions and symbols to make it more palatable to the reader. Since you are here, I presume you are looking to break in to the article. I hope my work will help you on your way.
 
 The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The encoding parameters like number of gates determines the expressivity and can be exchanged in terms of the Fourier series. A prior knowledge of the Fourier analysis [2] is mandatory to learn from the article. Plus I would suggest the eigen-decomposition is a cool insights [3]. 
 
@@ -8,6 +8,16 @@ In the abstract section of the article the authors succinctly provide the object
 
 >Here we investigate how the strategy with which data is encoded into the model inﬂuences the expressive power of parametrised quantum circuits as function approximators. We show that one can naturally write a quantum model as a partial Fourier series in the data, where the accessible frequencies are determined by the nature of the data encoding gates in the circuit. By repeating simple data encoding gates multiple times, quantum models can access increasingly rich frequency spectra. We show that there exist quantum models which can realise all possible sets of Fourier coeﬃcients, and therefore, if the accessible frequency spectrum is asymptotically rich enough, such models are universal function approximators.
 
+### Folder Structure
+1. The folder "reports" contains the pyhton notebook, and its html and pdf file format. The pdf file would be a great way to study my work.
+
+1. The folder "results" contains the ouput from the code in the python notebook.
+
+### Results
+In work too I found the results 
+
+### Closing note
+If you find this repository helpful please consider to fork or star it. Thank you for your visit!
 ### References
 
 [1] Schuld, Maria, Ryan Sweke, and Johannes Jakob Meyer. "Effect of data encoding on the expressive power of variational quantum-machine-learning models." Physical Review A 103.3 (2021): 032430.
