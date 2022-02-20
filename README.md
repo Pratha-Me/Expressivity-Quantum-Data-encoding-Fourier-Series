@@ -13,7 +13,7 @@
 
 This repository provides an extensive and comprehensive study/review to the article [1]. Albeit, this work only covers the section I and section II, they are extensive nevertheless. I‘ve invested multiple hours and a meticulous efforts to simplify the loaded mathematical notions and symbols to make it more palatable to the reader. Since you are here, I presume you are looking to break in to the article. I hope my work will help you on your way.
 
-The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The encoding parameters like number of gates and scaling of the frequency in trainable model determines the expressivity. The underlying notion is the quantum model can be exchanged in terms of the Fourier series.
+The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The main argument is the encoding parameters like number of gates and scaling of the frequency in trainable model determines the expressivity. This ultimately means the trainability of the parameteric circuit. The underlying notion to begin with is that the quantum model can be exchanged in terms of the Fourier series.
 
 <image>
 
