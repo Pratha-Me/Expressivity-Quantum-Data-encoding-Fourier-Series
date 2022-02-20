@@ -5,11 +5,11 @@
 1. Codebase for replication of every scenarios of the paper [1]. It works for the degree 1 Fourier Series
 1. Replicate the figure 3 from the paper
 1. Separate the report and the codes into two python notebooks and two corresponsding pdf files
+1. Replicate for degree 5 Fourier series
 ### TODO(s)
 
 1. Write OOP style code to eliminate code repetition
 1. Use custom 3 qubit system like the GHZ-state instead of  StronglyEntanglingLayers that authors have used in their git repo
-1. Replicate for degree 5 Fourier series
 
 This repository provides an extensive and comprehensive study/review to the article [1]. Albeit, this work only covers the section I and section II, they are extensive nevertheless. I‘ve invested multiple hours and a meticulous efforts to simplify the loaded mathematical notions and symbols to make it more palatable to the reader. Since you are here, I presume you are looking to break in to the article. I hope my work will help you on your way.
 
