@@ -15,7 +15,7 @@ This repository provides an extensive and comprehensive study/review to the arti
 
 The article is study about the effects of data encoding on the expressive power of variational quantum machine learning models. The main argument is the encoding parameters like number of gates and scaling of the frequency in trainable model determines the expressivity. This ultimately means the trainability of the parameteric circuit. The underlying notion to begin with is that the quantum model can be exchanged in terms of the Fourier series.
 
-<image>
+![Latex File](https://raw.githubusercontent.com/Pratha-Me/Expressivity-Quantum-Data-encoding-Fourier-Series/main/assets/images/latex.png)
 
 A prior knowledge of the Fourier analysis [2] is mandatory to learn from the article. Plus I would suggest the eigen-decomposition is a cool insights [3]. 
 
